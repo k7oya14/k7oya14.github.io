@@ -12,7 +12,7 @@ function slugify(str: any) {
     .replace(/\-\-+/g, "-"); // Replace multiple - with single -
 }
 
-function createAnchorHeading(level: number) {
+function createAnchorHeading(level: number, visible: boolean) {
   const Heading = ({ children }: { children: React.ReactNode }) => {
     let slug = slugify(children);
     return React.createElement(
@@ -22,7 +22,7 @@ function createAnchorHeading(level: number) {
         React.createElement("a", {
           href: `#${slug}`,
           key: `link-${slug}`,
-          className: "anchor",
+          className: visible ? "anchor" : "float-anchor",
         }),
       ],
       children
@@ -36,8 +36,8 @@ function createAnchorHeading(level: number) {
 
 export function useMDXComponents(components: MDXComponents): MDXComponents {
   return {
-    h1: ({ children }) => createAnchorHeading(1)({ children }),
-    h2: ({ children }) => createAnchorHeading(2)({ children }),
+    h2: ({ children }) => createAnchorHeading(2, true)({ children }),
+    h3: ({ children }) => createAnchorHeading(3, false)({ children }),
     ...components,
   };
 }
