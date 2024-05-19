@@ -16,10 +16,10 @@ export default function Page() {
         rich web/application development.
       </p>
       <section className="my-8 prose dark:prose-invert">
-        <SkillsAndInterests />
+        {/* <SkillsAndInterests /> */}
       </section>
       <section className="my-8 prose dark:prose-invert">
-        <Portfolio />
+        {/* <Portfolio /> */}
       </section>
     </main>
   );
