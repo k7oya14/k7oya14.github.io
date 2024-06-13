@@ -9,15 +9,15 @@ import { baseUrl } from "./sitemap";
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: "Koya Saka's Portfolio",
+    default: "Koya Saka",
     template: "%s | Koya Saka",
   },
   description: "Koya Saka's website (Portfolio/CV/Resume etc.)",
   openGraph: {
-    title: "Koya Saka's Portfolio",
+    title: "Koya Saka",
     description: "Koya Saka's website (Portfolio/CV/Resume etc.)",
     url: baseUrl,
-    siteName: "Koya Saka's Portfolio",
+    siteName: "Koya Saka",
     locale: "ja_JP",
     type: "website",
   },
