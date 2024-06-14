@@ -24,10 +24,10 @@ export default function Footer() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/k7oya14"
+            href=""
           >
             <ArrowIcon />
-            <p className="ml-2 h-7">github</p>
+            <p className="ml-2 h-7">LinkedIn</p>
           </a>
         </li>
         <li>
@@ -39,6 +39,17 @@ export default function Footer() {
           >
             <ArrowIcon />
             <p className="ml-2 h-7">Twitter</p>
+          </a>
+        </li>
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://github.com/k7oya14"
+          >
+            <ArrowIcon />
+            <p className="ml-2 h-7">Github</p>
           </a>
         </li>
       </ul>
