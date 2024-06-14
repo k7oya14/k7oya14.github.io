@@ -5,7 +5,7 @@ import Portfolio from "@/markdown/portfolio.mdx";
 export default function Page() {
   return (
     <main>
-      <h1 className="mb-8 text-4xl font-bold tracking-tighter">坂　功弥 （Koya Saka）</h1>
+      <h1 className="mb-8 text-4xl font-bold tracking-tighter">坂 功弥 / Koya Saka</h1>
       <p className="mb-4">
         <b>
           My name is Koya Saka, an undergraduate student at Waseda University.
