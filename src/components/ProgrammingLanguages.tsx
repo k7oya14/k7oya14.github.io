@@ -30,7 +30,7 @@ const languages = [
   { name: "shell / bash, zsh, fish", since: "2019-06-01" },
   { name: "Git", since: "2023-08-01" },
   { name: "TypeScript", since: "2024-02-01" },
-  { name: "React", since: "2023-02-01" },
+  { name: "React", since: "2024-02-01" },
   { name: "Next.js", since: "2024-02-01" },
   { name: "Java", since: "2024-04-01" },
   { name: "Fortran", since: "2024-04-01" },
