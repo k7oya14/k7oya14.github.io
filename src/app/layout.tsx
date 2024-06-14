@@ -7,6 +7,7 @@ import Footer from "@/components/footer";
 import { baseUrl } from "./sitemap";
 
 export const metadata: Metadata = {
+  verification: { google: "isTqXsWyXHxeVcNhwRliOPUOKrmHzpFTeOHiarxwMsk" }, // Google Search Console Verification
   metadataBase: new URL(baseUrl),
   title: {
     default: "Koya Saka",
